@@ -17,6 +17,7 @@ li a {
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 li a:hover {
@@ -43,6 +44,7 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
   color: #FCE181;
+  font-size: 56px;
 }
 .intro {
   position: relative;
