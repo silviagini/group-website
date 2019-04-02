@@ -9,13 +9,13 @@ h1 {
 }
 
 
-body {
+.one, .two {
   color: #FFFFFB;
   text-align: center;
   font-size: 1.2rem;
 }
 
-section {
+.one, .two {
   padding-bottom: 15vh;
   padding-top: 10px;
 }
@@ -66,4 +66,21 @@ p {
 .three {
   background: #026670;
   padding: 20vh 0;
+  align-items: center;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  height: 100vh;
+  justify-content: center;
 }
+
+a {
+  color: #FCE181;
+
+}
+ a:hover {
+	text-transform: uppercase;
+	font-weight: bold;
+color: #FCE181;
+   text-decoration: none;
+ }
