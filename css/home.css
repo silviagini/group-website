@@ -78,7 +78,7 @@ a {
   color: #FCE181;
 
 }
- a:hover {
+ .three a:hover {
 	text-transform: uppercase;
 	font-weight: bold;
 color: #FCE181;

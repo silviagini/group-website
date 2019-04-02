@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/contact.css"/>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 10px solid #d8f7ef;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00ced1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FCE181;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="About Us.html">About us</a></li>
+    <li><a href="stories2.html">Stories</a></li>
+    <li><a href="Events.html">Events and Volunteering</a></li>
+    <li><a href="contact form.html">Contact us</a></li>
+  </ul>
+</nav>
+<body>
+
+  <body>
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="eaddress">Email Address</label>
+    <input type="text" id="eaddress" name="emailaddress" placeholder="Your email address..">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
