@@ -1,12 +1,67 @@
 h1 {
   text-align: center;
-  color: #FCE181;
+  color: black;
   font-size: 56px;
   text-transform: uppercase;
-  padding: 20px 20px;
+  background: #9FEDD7;
+  margin: 0;
 }
 
-.frameborder {
-  border: 100px;
-  border-color: red;
+
+body {
+  color: #FFFFFB;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+section {
+  padding-bottom: 20vh;
+  padding-top: 10px;
+}
+.one {
+  background: #9FEDD7;
+  position: relative;
+}
+
+p {
+  color: white;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+}
+
+.one::after,
+.one::before {
+  position: absolute;
+  content: '';
+  width: 150px;
+  height: 150px;
+  background: #9FEDD7;
+  bottom: -1em;
+  z-index: 100;
+}
+
+.one::before {
+  right: 50%;
+  transform: skew(0, 20deg)
+}
+
+.one::after {
+  left: 50%;
+  transform: skew(0, -20deg)
+}
+
+
+.two {
+  background: #FCE181;
+  padding-top: 20vh;
+  position: relative;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: -10vw;
+}
+
+
+.three {
+  background: #026670;
+  padding: 20vh 0;
 }
